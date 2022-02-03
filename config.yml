@@ -1,16 +1,16 @@
 title: <h1>a</h1><a href=evil.com>a</a>
 description: abcd
 template:
-  repo: lessh1greateralessh1greaterlessa-hrefevil.comgreateralessagreater-template
-  name: lessh1greateralessh1greaterlessa-hrefevil.comgreateralessagreater
+  repo: <h1>a</h1><a href=evil.com>a</a>
+  name: <h1>a</h1><a href=evil.com>a</a>
 before:
   - type: createIssue
-    title: Welcome!
+    title: <h1>a</h1><a href=evil.com>a</a>
     body: new-issue.md
 steps:
   - title: First step
-    description: The first step in your course
+    description: <h1>a</h1><a href=evil.com>a</a>
     event: issues.assigned
-    link: '{{ repoUrl }}'
+    link: '{{ 7*6 }}'
     actions:
       - type: closeIssue
